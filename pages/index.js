@@ -144,7 +144,14 @@ const Home = () => (
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Voir mon portfolio
             </Button>
-          </NextLink>
+            </NextLink>
+            <Link href="https://drive.google.com/uc?export=download&id=1Y9sGfISdi7BhQf66rmadAogmrs6Bbmtl" download>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              Voir mon CV
+            </Button>
+            </Link>
+            
+          
         </Box>
       </Section>
     </Container>
