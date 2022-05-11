@@ -27,9 +27,10 @@ const Home = () => (
       <Box
         borderRadius="lg"
         mb={6}
+        mt={20}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        bg="lightgrey"
       >
         Bonjour, je suis en étudiant qui aime le frontend !
       </Box>

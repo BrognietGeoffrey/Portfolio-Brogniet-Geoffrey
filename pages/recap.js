@@ -12,13 +12,21 @@ import {
   } from '@chakra-ui/react'
 
 import Layout from '../components/layouts/article'
+import { Image } from '@chakra-ui/react'
+import { Heading } from '@chakra-ui/react'
+
+import { Center, Square, Circle } from '@chakra-ui/react'
+
 
 
 const Posts = () => (
 
 <Layout>
-  <Container  maxW='container.xl' m={2}>
-    <Table variant='simple' size="sm" colorScheme='blackAlpha'>
+  <Container  maxW='container.xl' m={2} mt={20}>
+    <Center>
+    <Heading>Récapitulatif</Heading>
+    </Center>
+    <Table variant='simple' size="sm" colorScheme='blackAlpha' mt={10}>
 
       <Thead>
         <Tr>
@@ -127,6 +135,7 @@ const Posts = () => (
 
 
     </Table>
+    
     </Container>
     </Layout>
     )

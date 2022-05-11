@@ -1,7 +1,18 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
+import { Box, Text, LinkBox, LinkOverlay, Button, Center } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
+import {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  PopoverHeader,
+  PopoverBody,
+  PopoverFooter,
+  PopoverArrow,
+  PopoverCloseButton,
+  PopoverAnchor,
+} from '@chakra-ui/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
   <Box w="80%" textAlign="center">
@@ -27,7 +38,8 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
   letterSpacing='wide'
   fontSize='l'
   textTransform='uppercase'
-  ml='2'>
+  ml='2'
+  minHeight='10em'>
     <NextLink href={`/works/${id}`}>
       <LinkBox cursor="pointer">
         <Image
@@ -35,6 +47,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
           alt={title}
           className="grid-item-thumbnail"
           placeholder="blur"
+          
 
 
         />
@@ -50,20 +63,38 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
 )
 
 export const ImageGridItem = ({ children, href, title, thumbnail }) => (
-  <Box w="100%" textAlign="center">
+  <Box  textAlign="center" mb={20}>
     <LinkBox cursor="pointer">
 
       <LinkOverlay href={href} target="_blank" m={6}>
         <Text m={3} fontSize='15px' color='messenger.500' as="i">{title}</Text>
       </LinkOverlay>
-      <Image
+      <Center>
+    
+      <Popover  placement='auto-end'>
+  <PopoverTrigger>
+    <Button>Afficher la preuve</Button>
+  </PopoverTrigger>
+  <PopoverContent width="50%" ml='20em'>
+
+
+    <Center>
+    <PopoverBody  ><Image
         src={thumbnail}
         alt={title}
         className="grid-item-thumbnail"
         placeholder="blur"
         loading="lazy"
-        my={3}
-      />
+       
+       
+       
+        
+      /></PopoverBody>
+      </Center>
+  </PopoverContent>
+</Popover>
+</Center>
+      
       <Text fontSize={30} m={6}>{children}</Text>
     </LinkBox>
   </Box>
@@ -73,6 +104,7 @@ export const GridItemStyle = () => (
     styles={`
       .grid-item-thumbnail {
         border-radius: 12px;
+       
       }
       .grid-item-thumbnail :hover {
         width : 100em;

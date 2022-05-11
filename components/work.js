@@ -1,10 +1,21 @@
 import NextLink from 'next/link'
 import { Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  PopoverHeader,
+  PopoverBody,
+  PopoverFooter,
+  PopoverArrow,
+  PopoverCloseButton,
+  PopoverAnchor,
+} from '@chakra-ui/react'
 
 
 export const Title = ({ children }) => (
-  <Box>
+  <Box mt={20}>
     <NextLink href="/portfolio">
       <Link>Portfolio</Link>
     </NextLink>
@@ -19,6 +30,7 @@ export const Title = ({ children }) => (
 )
 
 export const WorkImage = ({ src, alt }) => (
+  
   <Image boxSize="13em" borderRadius="lg" w="responsive"  src={src} alt={alt} mb={4}
 />
 )

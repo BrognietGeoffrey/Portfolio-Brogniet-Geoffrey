@@ -1,6 +1,11 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
+import { Image } from '@chakra-ui/react'
+import { Center, Square, Circle } from '@chakra-ui/react'
+
+
+
 
 import { WorkGridItem } from '../components/grid-item'
 
@@ -20,7 +25,10 @@ import preuvecsc1 from '../public/images/works/extra/csc/preuvecsc1.png'
 
 const Posts = () => (
   <Layout title="Portfolio" >
-    <Container maxW='container.md' alignItems="center">
+    <Center>
+      <Heading mt={20}>Mon Portfolio</Heading>
+    </Center>
+    <Container maxW='container.md' alignItems="center" mt={20}>
 
       {/** ---------- FORMATIONS ---------------------- */}
       <Heading as="h2" fontSize={30} mb={4} color="orange.800" >
