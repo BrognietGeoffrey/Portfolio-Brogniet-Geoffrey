@@ -2,7 +2,11 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { Image } from '@chakra-ui/react'
-import { Center, Square, Circle } from '@chakra-ui/react'
+import { Center, Square, Circle ,Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon, Box, Tooltip} from '@chakra-ui/react'
 
 
 
@@ -26,16 +30,25 @@ import preuvecsc1 from '../public/images/works/extra/csc/preuvecsc1.png'
 const Posts = () => (
   <Layout title="Portfolio" >
     <Center>
+      
       <Heading mt={20}>Mon Portfolio</Heading>
     </Center>
     <Container maxW='container.md' alignItems="center" mt={20}>
-
-      {/** ---------- FORMATIONS ---------------------- */}
-      <Heading as="h2" fontSize={30} mb={4} color="orange.800" >
+    <Accordion defaultIndex={[0]} allowMultiple >
+    <Tooltip label="Cliquez pour voir les activités">
+  <AccordionItem>
+    <h2>
+      <AccordionButton _expanded={{ bg: 'lightgrey', color: 'white' }}>
+        <Box flex='1' textAlign='left'>
+        <Heading as="h2" fontSize={30} mb={4} color="orange.800" >
         <u><i>Mes formations openclassrooms</i></u>
       </Heading>
-
-      <Section delay={0.1} >
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    <Section delay={0.1} >
         <SimpleGrid columns={[1, 1, 2]} gap={4}>
 
           {/** FORMATION JAVASCRIPT */}
@@ -74,12 +87,23 @@ const Posts = () => (
           ></WorkGridItem>
         </SimpleGrid>
       </Section>
+    </AccordionPanel>
+  </AccordionItem>
+  </Tooltip>
 
-      {/** ----------- EXTRAS -------------------- */}
-      <Heading as="h2" fontSize={30} mb={4} color="orange.800">
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box flex='1' textAlign='left'>
+        <Heading as="h2" fontSize={30} mb={4} color="orange.800">
         <u><i>Mes activités extra-scolaires</i></u>
       </Heading>
-      <Section delay={0.3}>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    <Section delay={0.3}>
         <SimpleGrid columns={[1, 1, 2]} gap={10}>
           <WorkGridItem
           title="Mon job étudiant"
@@ -104,13 +128,21 @@ const Posts = () => (
           />
         </SimpleGrid>
       </Section>
-
-      {/** ----------- EPHEC -------------------- */}
-
-      <Heading as="h2" fontSize={30} mb={4} color="orange.800">
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box flex='1' textAlign='left'>
+        <Heading as="h2" fontSize={30} mb={4} color="orange.800">
         <u><i>Mes activités pour l&apos;EPHEC</i></u>
       </Heading>
-      <Section delay={0.5}>
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    <Section delay={0.5}>
         <SimpleGrid columns={[1, 1, 2]} gap={1}>
             <WorkGridItem
             title="Représentation active au SIEP"
@@ -119,6 +151,11 @@ const Posts = () => (
             />
         </SimpleGrid>
       </Section>
+    </AccordionPanel>
+  </AccordionItem>
+</Accordion>
+
+     
     </Container>
   </Layout>
 )

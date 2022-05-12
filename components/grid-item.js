@@ -12,6 +12,11 @@ import {
   PopoverArrow,
   PopoverCloseButton,
   PopoverAnchor,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
 } from '@chakra-ui/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
@@ -63,23 +68,20 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
 )
 
 export const ImageGridItem = ({ children, href, title, thumbnail }) => (
-  <Box  textAlign="center" mb={20}>
-    <LinkBox cursor="pointer">
-
-      <LinkOverlay href={href} target="_blank" m={6}>
-        <Text m={3} fontSize='15px' color='messenger.500' as="i">{title}</Text>
-      </LinkOverlay>
-      <Center>
-    
-      <Popover  placement='auto-end'>
-  <PopoverTrigger>
-    <Button>Afficher la preuve</Button>
-  </PopoverTrigger>
-  <PopoverContent width="50%" ml='20em'>
-
-
-    <Center>
-    <PopoverBody  ><Image
+  <Box  textAlign="center">
+         <Accordion allowToggle >
+  <AccordionItem variant='left-accent'>
+    <h2>
+      <AccordionButton _expanded={{ bg: 'lightgrey', variant: 'left-accent' }}>
+        <Box flex='1' textAlign='center'>
+        {title}
+        </Box>
+        <AccordionIcon textAlign='left' />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} >
+    <Image
+     objectFit='cover'
         src={thumbnail}
         alt={title}
         className="grid-item-thumbnail"
@@ -89,10 +91,14 @@ export const ImageGridItem = ({ children, href, title, thumbnail }) => (
        
        
         
-      /></PopoverBody>
-      </Center>
-  </PopoverContent>
-</Popover>
+      />
+    </AccordionPanel>
+  </AccordionItem>
+  </Accordion>
+    <LinkBox cursor="pointer">
+
+     
+      <Center>
 </Center>
       
       <Text fontSize={30} m={6}>{children}</Text>
