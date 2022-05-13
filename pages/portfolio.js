@@ -35,13 +35,13 @@ const Posts = () => (
     </Center>
     <Container maxW='container.md' alignItems="center" mt={20}>
     <Accordion defaultIndex={[0]} allowMultiple >
-    <Tooltip label="Cliquez pour voir les activités">
+    
   <AccordionItem>
     <h2>
       <AccordionButton _expanded={{ bg: 'lightgrey', color: 'white' }}>
         <Box flex='1' textAlign='left'>
         <Heading as="h2" fontSize={30} mb={4} color="orange.800" >
-        <u><i>Mes formations openclassrooms</i></u>
+        <u>Mes formations openclassrooms</u>
       </Heading>
         </Box>
         <AccordionIcon />
@@ -89,14 +89,14 @@ const Posts = () => (
       </Section>
     </AccordionPanel>
   </AccordionItem>
-  </Tooltip>
+ 
 
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box flex='1' textAlign='left'>
         <Heading as="h2" fontSize={30} mb={4} color="orange.800">
-        <u><i>Mes activités extra-scolaires</i></u>
+        <u>Mes activités extra-scolaires</u>
       </Heading>
         </Box>
         <AccordionIcon />
@@ -130,12 +130,13 @@ const Posts = () => (
       </Section>
     </AccordionPanel>
   </AccordionItem>
+  
   <AccordionItem>
     <h2>
       <AccordionButton>
         <Box flex='1' textAlign='left'>
         <Heading as="h2" fontSize={30} mb={4} color="orange.800">
-        <u><i>Mes activités pour l&apos;EPHEC</i></u>
+        <u>Mes activités pour l&apos;EPHEC</u>
       </Heading>
         </Box>
         <AccordionIcon />
