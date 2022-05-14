@@ -34,7 +34,7 @@ const Home = () => (
         textAlign="center"
         bg="lightgrey"
       >
-        Bonjour, je suis en étudiant qui aime le développement Web ! 
+        Bonjour, je suis un étudiant qui aime le développement Web ! 
       </Box>
 
       <Box display={{ md: 'flex' }} align="center" my={4}>
@@ -42,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Brogniet Geoffrey
           </Heading>
-          <p>Étudiant et futur diplomé en technologies de l&apos;informatique, passioné de cinéma</p>
+          <p>Étudiant et futur diplômé en technologies de l&apos;informatique, passioné de cinéma.</p>
         </Box>
         <Box
           flexShrink={0}
