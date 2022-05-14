@@ -38,9 +38,9 @@ const Posts = () => (
     
   <AccordionItem>
     <h2>
-      <AccordionButton _expanded={{ bg: 'lightgrey', color: 'white' }}>
+      <AccordionButton _expanded={{ bg: 'lightgrey', color: 'dark' }}>
         <Box flex='1' textAlign='left'>
-        <Heading as="h2" fontSize={30} mb={4} color="orange.800" >
+        <Heading as="h2" fontSize={30} mb={4} color="messenger" >
         <u>Mes formations openclassrooms</u>
       </Heading>
         </Box>
@@ -95,7 +95,7 @@ const Posts = () => (
     <h2>
       <AccordionButton>
         <Box flex='1' textAlign='left'>
-        <Heading as="h2" fontSize={30} mb={4} color="orange.800">
+        <Heading as="h2" fontSize={30} mb={4} >
         <u>Mes activités extra-scolaires</u>
       </Heading>
         </Box>
@@ -135,7 +135,7 @@ const Posts = () => (
     <h2>
       <AccordionButton>
         <Box flex='1' textAlign='left'>
-        <Heading as="h2" fontSize={30} mb={4} color="orange.800">
+        <Heading as="h2" fontSize={30} mb={4} >
         <u>Mes activités pour l&apos;EPHEC</u>
       </Heading>
         </Box>

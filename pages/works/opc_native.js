@@ -19,7 +19,7 @@ import preuve3 from '../../public/images/works/openclassrooms/reactnative/preuve
     <Layout title="Formation React Native">
       <Container maxW="container.lg">
         <Title>
-          Formation React Native  <Badge color="orange.900">Formation</Badge>
+          Formation React Native  <Badge color="RGBA(0, 0, 0, 0.48)">Formation</Badge>
         </Title>
         <P>
         La formation "Développez une application mobile React Native" proposée également par Openclassrooms a été une grande valeur ajoutée en parallèle de la formation de l'EPHEC. En effet, cette formation m'a aidé à me préparer pour le cours "Projet d'intégration", pour lequel mon groupe et moi-même avons utilisé React Native pour créer notre application mobile. </P>

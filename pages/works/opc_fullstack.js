@@ -17,7 +17,7 @@ const Work = () => (
     <Layout title="Formation FullStack">
       <Container maxW="container.lg">
         <Title>
-          Formation FullStack <Badge color='orange.900'>Formation</Badge>
+          Formation FullStack <Badge color='RGBA(0, 0, 0, 0.48)'>Formation</Badge>
 
         </Title>
         <P>

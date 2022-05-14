@@ -19,7 +19,7 @@ import preuve3 from '../../public/images/works/openclassrooms/vue/preuvevue3.png
     <Layout title="Formation Vue.js">
       <Container maxW="container.lg">
         <Title>
-          Formation Vue.js <Badge color="orange.900">Formation</Badge>
+          Formation Vue.js <Badge color="RGBA(0, 0, 0, 0.48)">Formation</Badge>
         </Title>
         <P>
           La formation "Creer une application web avec Vue.js" proposée également par OpenClassRoomsa été aussi d'une grande valeur ajoutée en parallèle de la formation de l'EPHEC.

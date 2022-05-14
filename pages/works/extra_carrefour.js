@@ -18,7 +18,7 @@ const Work = () => (
     <Layout title="Job étudiant">
       <Container maxW="container.lg">
         <Title>
-          Mon travail chez Carrefour<Badge color="purple.700">Job étudiant</Badge>
+          Mon travail chez Carrefour<Badge color="Yellow 900">Job étudiant</Badge>
 
         </Title>
         <P>Depuis le début des grandes vacances scolaires de 2016 jusqu'à maintenant, j'ai travaillé dans ce grand magasin de distribution, malgré sa taille et son importante fréquentation de client, il s'agit d'un endroit

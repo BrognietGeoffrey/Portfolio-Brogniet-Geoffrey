@@ -17,7 +17,7 @@ const Work = () => (
     <Layout title="Formation HTML/CSS">
       <Container maxW="container.lg">
         <Title>
-          Formation HTML/CSS <Badge color="orange.900">Formation</Badge>
+          Formation HTML/CSS <Badge color="RGBA(0, 0, 0, 0.48)">Formation</Badge>
 
         </Title>
         <P>

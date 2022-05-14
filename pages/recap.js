@@ -46,7 +46,7 @@ const Posts = () => (
         {/** LES FORMATIONS */}
         <Tr>
           <Td><b>1</b></Td>
-          <Td><Link color="orange.900" href="https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript" target="_blank">Formation </Link></Td>
+          <Td><Link color="RGBA(0, 0, 0, 0.48)" href="https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript" target="_blank">Formation </Link></Td>
           <Td><Link color='teal.500' href="/works/opc_js"> Apprenez à programmer en Javascript</Link></Td>
           <Td>15h</Td>
           <Td color='red'>Non valorisé <Tooltip placement='top' label="Dans le cadre de ce portfolio, seulement 30h peuvent être valorisées pour des activités de type formation. J'ai donc décider de ne pas inclure cette formation dans le compte"><QuestionOutlineIcon width={3} mt={-5}></QuestionOutlineIcon></Tooltip> </Td>
@@ -54,7 +54,7 @@ const Posts = () => (
         </Tr>
         <Tr>
           <Td><b>2</b></Td>
-          <Td><Link color="orange.900" href="https://openclassrooms.com/fr/courses/4902061/next-page-to-do" target="_blank">Formation </Link></Td>
+          <Td><Link color="RGBA(0, 0, 0, 0.48)" href="https://openclassrooms.com/fr/courses/4902061/next-page-to-do" target="_blank">Formation </Link></Td>
           <Td><Link color='teal.500' href="/works/opc_native"> Développez une application mobile React Native</Link></Td>
           <Td>30h</Td>
           <Td>10h</Td>
@@ -62,7 +62,7 @@ const Posts = () => (
         </Tr>
         <Tr>
           <Td><b>3</b></Td>
-          <Td><Link color="orange.900" href="https://openclassrooms.com/fr/courses/1603881/next-page-to-do" target="_blank">Formation </Link></Td>
+          <Td><Link color="RGBA(0, 0, 0, 0.48)" href="https://openclassrooms.com/fr/courses/1603881/next-page-to-do" target="_blank">Formation </Link></Td>
           <Td><Link color='teal.500' href="/works/opc_html"> Apprenez à créer votre site web avec HTML5 et CSS3</Link></Td>
           <Td>20h</Td>
           <Td color='red'>Non valorisé <Tooltip placement='top' label="Dans le cadre de ce portfolio, seulement 30h peuvent être valorisées pour des activités de type formation. J'ai donc décider de ne pas inclure cette formation dans le compte"><QuestionOutlineIcon width={3} mt={-5}></QuestionOutlineIcon></Tooltip> </Td>
@@ -70,7 +70,7 @@ const Posts = () => (
         </Tr>
         <Tr>
           <Td><b>4</b></Td>
-          <Td><Link color="orange.900" href="https://openclassrooms.com/fr/courses/6390246/next-page-to-do" target="_blank">Formation </Link></Td>
+          <Td><Link color="RGBA(0, 0, 0, 0.48)" href="https://openclassrooms.com/fr/courses/6390246/next-page-to-do" target="_blank">Formation </Link></Td>
           <Td><Link color='teal.500' href="/works/opc_fullstack"> Passez au Full Stack avec Node.js, Express et MongoDB</Link></Td>
           <Td>10h</Td>
           <Td>10h</Td>
@@ -78,7 +78,7 @@ const Posts = () => (
         </Tr>
         <Tr>
           <Td><b>5</b></Td>
-          <Td><Link color="orange.900" href="https://openclassrooms.com/fr/courses/6390311/next-page-to-do" target="_blank">Formation </Link></Td>
+          <Td><Link color="RGBA(0, 0, 0, 0.48)" href="https://openclassrooms.com/fr/courses/6390311/next-page-to-do" target="_blank">Formation </Link></Td>
           <Td><Link color='teal.500' href="/works/opc_vue"> Créez une application web avec Vue.js</Link></Td>
           <Td>30h</Td>
           <Td>10h</Td>
@@ -87,7 +87,7 @@ const Posts = () => (
         {/** LES EXTRAS */}
         <Tr size="lg">
           <Td><b>6</b></Td>
-          <Td><Link color="purple.700" href="https://belgiumjobs.carrefour.eu/go/Students/4159001/" target="_blank">Job étudiant </Link></Td>
+          <Td><Link color="Yellow 900" href="https://belgiumjobs.carrefour.eu/go/Students/4159001/" target="_blank">Job étudiant </Link></Td>
           <Td><Link color='teal.500' href="/works/extra_carrefour"> Carrefour</Link></Td>
           <Td>+475h</Td>
           <Td>10h</Td>

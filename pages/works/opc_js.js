@@ -18,7 +18,7 @@ import preuve3 from '../../public/images/works/openclassrooms/js/preuvejs3.png'
     <Layout title="Formation Javascript" >
       <Container maxW='container.lg'>
         <Title>
-          Formation Javascript <Badge color="orange.900">Formation</Badge>
+          Formation Javascript <Badge color="RGBA(0, 0, 0, 0.48)">Formation</Badge>
 
         </Title>
         <P>OpenClassrooms est un site web de formation en ligne, créé en 1999 sous le nom de Site du Zéro. Il propose à ses membres des cours certifiant et des parcours débouchant sur des métiers en croissance.</P>
