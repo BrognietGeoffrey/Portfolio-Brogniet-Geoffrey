@@ -75,13 +75,13 @@ const Navbar = props => {
           <LinkItem href="/portfolio" path={path}>
             Portfolio
           </LinkItem>
-          <LinkItem href="/why" path={path}>
-            Pourquoi ce site ?
-          </LinkItem>
+          
           <LinkItem href="/recap" path={path}>
             Tableau récapitulatif
           </LinkItem>
-
+          <LinkItem href="/why" path={path}>
+            Pourquoi ce site ?
+          </LinkItem>
           <LinkItem
             _target="_blank"
             href="https://github.com/brognietgeoffrey"
@@ -91,8 +91,9 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
+
             <IoLogoGithub />
-            Source
+            Mon Github
           </LinkItem>
 
         </Stack>

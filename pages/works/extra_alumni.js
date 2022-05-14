@@ -21,7 +21,7 @@ const Work = () => (
           L&apos;atelir Alumni<Badge color="blue.500">Atelier</Badge>
 
         </Title>
-        <P>L'atelier organisé par l'EPHEC Alumni avait pour vocation d'amener des témoignages d'anciens étudiants de l'ephec. Nous avons pu voir donc voir beaucoup d'anciens étudiants nous parler de leurs entreprises,leurs réussites, leurs echecs.</P>
+        <P>L'atelier organisé par l'EPHEC Alumni avait pour vocation d'amener des témoignages d'anciens étudiants de l'EPHEC. Nous avons pu voir donc voir beaucoup d'anciens étudiants nous parler de leurs entreprises, leurs réussites, leurs échecs.</P>
         <P> Ce fut un atelier riche en conseils et cela m'a fortement encouragé pour le futur, mon futur. </P>
 
         <Heading as="h4" fontSize={20} my={10}>

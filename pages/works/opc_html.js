@@ -24,7 +24,7 @@ const Work = () => (
         La formation "Apprenez à créer votre vite web avec HTML et CSS3" proposée également par OpenClassRoomsa été aussi d'une grande valeur ajoutée en parallèle de la formation de l'EPHEC.
         </P>
         <P>Cette formation est venue en parallèle du cours de développement programmation de première année, lorsque nous apprenions les bases de l'HTML et du CSS. </P>
-        <P>J&apos;ai donc réalisé cette formation durant 20h et cela m&apos;a permis d&apos;apprendre beaucoup de chose en plus que les cours donnés ou alors d&apos;appronfondir ce qu&apos;on nous apprenais</P>
+        <P>J&apos;ai donc réalisé cette formation durant 20h et cela m&apos;a permis d&apos;apprendre beaucoup de chose en plus que les cours donnés ou alors d&apos;approfondir ce qu&apos;on nous apprenait</P>
         <P>Bien sûr avec une formation de 20h on ne peut pas tout apprendre sur ces langages mais c&apos;est déjà un bon début en plus des cours donnés. </P>
         <P>Cette formation m&apos;a donc été fort utile lors de mon apprentissage pour ces langage de programmation.</P>
 
@@ -42,14 +42,14 @@ const Work = () => (
         </ImageGridItem>
 
         <ImageGridItem my={7}
-        title="Progression"
+        title="Preuve de réalisation personnelle"
         thumbnail={preuve1}
         href="/images/works/openclassrooms/html/preuvehtml1.png" target="_blank"
         >
         </ImageGridItem>
 
         <ImageGridItem my={7}
-        title="Preuve de réalisation personnelle"
+        title="Progression "
         thumbnail={preuve2}
         href="/images/works/openclassrooms/html/preuvehtml2.png" target="_blank"
         >

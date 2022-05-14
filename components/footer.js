@@ -32,7 +32,7 @@ const Footer = (props) => {
 
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-      &copy; {new Date().getFullYear()} Brogniet Geoffrey
+      &copy; {new Date().getFullYear()} Brogniet Geoffrey - Inspiré de <Link href="https://www.youtube.com/watch?v=bSMZgXzC9AA&t=1872s&ab_channel=devaslife">devaslife</Link>
       <Container >
       <Stack
           direction={{ base: 'column', md: 'row' }}
@@ -46,11 +46,12 @@ const Footer = (props) => {
           <LinkItem href="/portfolio" path={path}>
             Portfolio
           </LinkItem>
-          <LinkItem href="/why" path={path}>
-            Pourquoi ce site ?
-          </LinkItem>
+          
           <LinkItem href="/recap" path={path}>
             Tableau récapitulatif
+          </LinkItem>
+          <LinkItem href="/why" path={path}>
+            Pourquoi ce site ?
           </LinkItem>
 
           <LinkItem
@@ -63,7 +64,7 @@ const Footer = (props) => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Mon Github
           </LinkItem>
 
         </Stack>

@@ -21,13 +21,15 @@ import preuve3 from '../../public/images/works/openclassrooms/js/preuvejs3.png'
           Formation Javascript <Badge color="orange.900">Formation</Badge>
 
         </Title>
-        <P>
-        OpenClassrooms est un site web de formation en ligne, créé en 1999 sous le nom de Site du Zéro. Il propose à ses membres des cours certifiants et des parcours débouchant sur des métiers en croissance.
-        </P>
-        <P>Cette formation est venue en parallèle du cours de développement programmation de première année, lorsque nous apprenions les bases du javascript. </P>
-        <P>J&apos;ai donc réalisé cette formation durant 15h et cela m&apos;a permis d&apos;apprendre beaucoup de chose en plus que les cours donnés ou alors d&apos;appronfondir ce qu&apos;on nous apprenais</P>
-        <P>Bien sûr avec une formation de 15h on ne peut pas tout apprendre sur le Javascript mais c&apos;est déjà un bon début en plus des cours donnés. </P>
-        <P>Cette formation m&apos;a donc été fort utile lors de mon apprentissage pour ce langage de programmation.</P>
+        <P>OpenClassrooms est un site web de formation en ligne, créé en 1999 sous le nom de Site du Zéro. Il propose à ses membres des cours certifiant et des parcours débouchant sur des métiers en croissance.</P>
+
+        <P>Cette formation est venue en parallèle du cours de développement programmation de première année, lorsque nous apprenions les bases du JavaScript.</P>
+
+<P>J'ai donc réalisé cette formation durant 15 h et cela m'a permis d'apprendre beaucoup de choses en plus que les cours donnés ou alors d'approfondir ce qu'on nous apprenait.</P>
+
+<P>Bien sûr, avec une formation de 15 h, on ne peut pas tout apprendre sur le JavaScript, mais c'est déjà un bon début en plus des cours donnés.</P>
+
+<P>Cette formation m'a donc été fort utile lors de mon apprentissage pour ce langage de programmation.</P>
 
 
         <Heading as="h4" fontSize={20} my={10}>

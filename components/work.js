@@ -17,7 +17,13 @@ import {
 export const Title = ({ children }) => (
   <Box mt={20}>
     <NextLink href="/portfolio">
-      <Link>Portfolio</Link>
+      <Link> Retour au portfolio </Link>
+      
+    </NextLink>
+      /
+    <NextLink href="/recap">
+      <Link> Retour au récapitulatif</Link>
+      
     </NextLink>
     <span>
       {' '}

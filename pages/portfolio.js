@@ -34,7 +34,7 @@ const Posts = () => (
       <Heading mt={20}>Mon Portfolio</Heading>
     </Center>
     <Container maxW='container.md' alignItems="center" mt={20}>
-    <Accordion defaultIndex={[0]} allowMultiple >
+    <Accordion  allowMultiple >
     
   <AccordionItem>
     <h2>

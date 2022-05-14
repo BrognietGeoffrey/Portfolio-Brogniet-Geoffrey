@@ -72,8 +72,8 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Mon projet professionnel
         </Heading>
-        <Paragraph>
-        Après mes études, je souhaite être développeur frontend, donc développer toutes les parties visibles d'un site web ou d'une application. Je souhaite également être un informaticien qui se déplace et de casser l'image du développeur toujours assis sur sa chaise dans un bureau. Je souhaite aider des clients à résoudre des gros problèmes informatiques. Je souhaite également, après avoir acquis plus d'expériences, me lancer dans du freelance.
+        <Paragraph align="justify">
+        Après mes études, je souhaite devenir développeur frontend, donc développer toutes les parties visibles d'un site web ou d'une application.Je prévois également un avenir en tant qu'informaticien de terrain,  qui se déplace afin d'alterner mes activités. Et enfin, je souhaite également, après avoir acquis plus d'expériences, me lancer dans du freelance.
         </Paragraph>
         <Box align="center" my={4}>
 
@@ -85,11 +85,11 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Ma scolarité
         </Heading>
-        <BioSection>
+        <BioSection align="justify">
           <BioYear>2018-2022 </BioYear>
           Étude des technologies de l’informatique. Cela consiste à la création de site, à la maintenance ou création de réseaux ou encore de circuits électroniques.
         </BioSection>
-        <BioSection>
+        <BioSection align="justify">
           <BioYear>2011-2018 </BioYear>
           
           Enseignement général à l’Institut des Sœurs de Notre Dame dans la section sciences économique/anglais.
@@ -97,19 +97,19 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.2}>
+      <Section delay={0.2} align="justify">
         
         <Heading as="h3" variant="section-title">
         Mes expériences professionnelles
         </Heading>
-        <BioSection>
+        <BioSection align="justify">
           <BioYear>2016-Present </BioYear>
           Travail étudiant durant les samedis de l’année et les grandes vacances. L’objectif du travail est de remplir les rayons, de répondre aux besoins et questions des clients ainsi que de savoir encaisser les clients. Expérience en fruits et légumes, crèmerie, boulangerie et caisses.
       
           Carrefour Market Marius Renard
               (Anderlecht)
         </BioSection>
-        <BioSection>
+        <BioSection align="justify">
           <BioYear>2015-2016</BioYear>
           Travail étudiant durant les grandes vacances. L’objectif du travail est de remplir les machines d’ampoules vides, de vider les sas d’ampoules remplies et de vérifier et remplir les bidons de liquides.
           Job étudiant chez Sterop
