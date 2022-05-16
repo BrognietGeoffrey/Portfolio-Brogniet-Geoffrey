@@ -26,7 +26,7 @@ const Work = () => (
 
         </Title>
         <P>GIMP est la version gratuite et Open Source<Tooltip placement='top' label="Tout le monde peut avoir accès au code et y rajouter des fonctionnalités."><QuestionOutlineIcon width={3} mt={-5}></QuestionOutlineIcon></Tooltip> de Photoshop. Ils s'agit d'un incontournable dans le monde du développement Open Source.</P>
-        <P>J'ai décidé de faire cet atelier organisé par le Louvain-Li-Nux pour voir toutes les différences qu'il y a entre Photoshop et GIMP. Mise à part le prix, il n'y a aucune différence, j'ai pu, grâce aux cours d'inition aux ordinateurs, m'y retrouver très facilement car
+        <P>J'ai décidé de faire cet atelier organisé par le Louvain-Li-Nux pour voir toutes les différences qu'il y a entre Photoshop et GIMP. Mise à part le prix, il n'y a aucune différence. J'ai pu, grâce aux cours d'inition aux ordinateurs, m'y retrouver très facilement car
           ces deux logiciels sont très similaires.
         </P>
         <P>J'ai particulièrement apprécié cet atelier car il est original, très animé et avec pas mal de rigolades.</P>

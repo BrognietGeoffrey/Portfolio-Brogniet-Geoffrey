@@ -21,12 +21,12 @@ const Work = () => (
 
         </Title>
         <P>
-        La formation "Apprenez à créer votre vite web avec HTML et CSS3" proposée également par OpenClassRoomsa été aussi d'une grande valeur ajoutée en parallèle de la formation de l'EPHEC.
+        La formation "Apprenez à créer votre vite web avec HTML et CSS3" fut l'une des premières formations que j'ai réalisé grâce à OpenClassRooms. Ce fut une aide incroyable en plus des cours de programmation de première année. 
         </P>
         <P>Cette formation est venue en parallèle du cours de développement programmation de première année, lorsque nous apprenions les bases de l'HTML et du CSS. </P>
-        <P>J&apos;ai donc réalisé cette formation durant 20h et cela m&apos;a permis d&apos;apprendre beaucoup de chose en plus que les cours donnés ou alors d&apos;approfondir ce qu&apos;on nous apprenait</P>
+        <P>J&apos;ai donc réalisé cette formation durant 20h et cela m&apos;a permis d&apos;apprendre plus de compétences en plus des cours donnés ainsi qu&apos;approfondir ce qu&apos;on nous apprenait.</P>
         <P>Bien sûr avec une formation de 20h on ne peut pas tout apprendre sur ces langages mais c&apos;est déjà un bon début en plus des cours donnés. </P>
-        <P>Cette formation m&apos;a donc été fort utile lors de mon apprentissage pour ces langage de programmation.</P>
+        <P>Cette formation m&apos;a donc été fort utile lors de mon apprentissage pour ces langages de programmation.</P>
 
 
 

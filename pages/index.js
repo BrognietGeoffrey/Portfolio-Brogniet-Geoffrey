@@ -73,7 +73,7 @@ const Home = () => (
           Mon projet professionnel
         </Heading>
         <Paragraph align="justify">
-        Après mes études, je souhaite devenir développeur frontend, donc développer toutes les parties visibles d'un site web ou d'une application.Je prévois également un avenir en tant qu'informaticien de terrain,  qui se déplace afin d'alterner mes activités. Et enfin, je souhaite également, après avoir acquis plus d'expériences, me lancer dans du freelance.
+        Après mes études, je souhaite devenir développeur frontend qui consiste à développer toutes les parties visibles d'un site web ou d'une application. Je prévois également un avenir en tant qu'informaticien de terrain qui se déplace afin d'alterner mes activités. Et enfin, j'envisage également, après avoir acquis plus d'expériences, me lancer dans du freelance.
         </Paragraph>
         <Box align="center" my={4}>
 
@@ -87,7 +87,7 @@ const Home = () => (
         </Heading>
         <BioSection align="justify">
           <BioYear>2018-2022 </BioYear>
-          Étude des technologies de l’informatique. Cela consiste à la création de site, à la maintenance ou création de réseaux ou encore de circuits électroniques.
+          Étude des technologies de l’informatique. Cela consiste en la création de site, la maintenance ou création de réseaux ou encore de circuits électroniques.
         </BioSection>
         <BioSection align="justify">
           <BioYear>2011-2018 </BioYear>
@@ -107,12 +107,12 @@ const Home = () => (
           Travail étudiant durant les samedis de l’année et les grandes vacances. L’objectif du travail est de remplir les rayons, de répondre aux besoins et questions des clients ainsi que de savoir encaisser les clients. Expérience en fruits et légumes, crèmerie, boulangerie et caisses.
       
           Carrefour Market Marius Renard
-              (Anderlecht)
+              (Anderlecht).
         </BioSection>
         <BioSection align="justify">
           <BioYear>2015-2016</BioYear>
           Travail étudiant durant les grandes vacances. L’objectif du travail est de remplir les machines d’ampoules vides, de vider les sas d’ampoules remplies et de vérifier et remplir les bidons de liquides.
-          Job étudiant chez Sterop
+          Job étudiant chez Sterop.
         </BioSection>
       </Section>
 

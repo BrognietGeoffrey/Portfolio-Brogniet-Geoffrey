@@ -21,12 +21,12 @@ const Work = () => (
 
         </Title>
         <P>
-          La formation "Passez au Full Stack avec Node.js, Express et MongoDB" proposée également par OpenClassRooms a été aussi d'une grande valeur ajoutée en parallèle de la formation de l'EPHEC.
+          Proposée par OpenClassRooms, la formation "Passez au Full Stack avec Node.js, Express et MongoDB" fut un réel apport aux cours donnés à l'EPHEC.
           Cette formation m'a été fort utile pour le projet d'intégration durant le premier quadrimestre de la troisième année.
           Grâce à cette formation, j'ai pu très vite revoir les bases des trois langages de programmation de cette formation et ensuite, j'ai pu, grâce à des exercices proposés, approfondir mes connaissances.
         </P>
         <P>Cela m'a également fort aidé pour mieux comprendre le Full Stack et surtout le backend où j'avais encore quelques difficultés.</P>
-        <P>J'ai énormément apprécié cette formation encore une fois car elle a été à la hauteur de la formation qu'on a à l'EPHEC et cela m'a permis de facilement et rapidement concrétiser le projet d'intégration et d'en être fier.</P>
+        <P>J'ai énormément apprécié cette formation car elle a été à la hauteur du niveau d'apprentissage de l'EPHEC et cela m'a apporté un plus grande facilité pour concrétiser le projet d'intégration et d'en être fier.</P>
 
 
 

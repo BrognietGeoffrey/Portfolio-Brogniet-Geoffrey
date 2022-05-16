@@ -22,8 +22,8 @@ import preuve3 from '../../public/images/works/openclassrooms/reactnative/preuve
           Formation React Native  <Badge color="RGBA(0, 0, 0, 0.48)">Formation</Badge>
         </Title>
         <P>
-        La formation "Développez une application mobile React Native" proposée également par Openclassrooms a été une grande valeur ajoutée en parallèle de la formation de l'EPHEC. En effet, cette formation m'a aidé à me préparer pour le cours "Projet d'intégration", pour lequel mon groupe et moi-même avons utilisé React Native pour créer notre application mobile. </P>
-        <P> Grâce à cette formation, j'ai eu l'occasion d'apprendre dans un premier temps les bases nécessaires au commencement d'une application, et dans un second temps, j'ai pu approfondir cela afin de créer une application de plus en plus complète.</P> <P>Ça m'a également permis de comprendre la majorité des subtilités propres à React Native, qui n'auraient pas été instinctives sans avoir un minimum de bases dans cette technologie.</P>
+        La formation "Développez une application mobile React Native" proposée également par Openclassrooms a été une grande valeur ajoutée en parallèle de la formation de l'EPHEC. En effet, cette formation m'a aidé à me préparer pour le cours "Projet d'intégration", pour lequel mon groupe et moi-même avions utilisé React Native pour créer notre application mobile. </P>
+        <P> Grâce à cette formation, j'ai eu l'occasion d'apprendre, dans un premier temps, les bases nécessaires pour débuter une application, et dans un second temps, j'ai pu approfondir cela afin de créer une application de plus en plus complète.</P> <P>Ça m'a également permis de comprendre la majorité des subtilités propres à React Native, qui n'auraient pas été instinctives sans avoir un minimum de bases dans cette technologie.</P>
 
 <P>Encore une fois, j'ai énormément apprécié cette formation créée par Openclassrooms. Elle a véritablement été à la hauteur, et m'a permis de pouvoir rapidement concrétiser une application mobile (certes, basique dans un premier temps) pour le projet d'intégration, et d'améliorer celle-ci au fur et à mesure.</P>
 

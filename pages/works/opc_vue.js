@@ -22,12 +22,12 @@ import preuve3 from '../../public/images/works/openclassrooms/vue/preuvevue3.png
           Formation Vue.js <Badge color="RGBA(0, 0, 0, 0.48)">Formation</Badge>
         </Title>
         <P>
-          La formation "Creer une application web avec Vue.js" proposée également par OpenClassRoomsa été aussi d'une grande valeur ajoutée en parallèle de la formation de l'EPHEC.
+          La formation "Creer une application web avec Vue.js" proposée également par OpenClassRooms a été aussi d'une grande valeur ajoutée en parallèle de la formation de l'EPHEC.
           Cette formation m'a été fort utile pour le cours et le projet de DevWeb III durant le second quadrimestre de la deuxieme année.
           Grâce à cette formation, j'ai pu très vite apprendre les bases de ce langage de programmation et ensuite j'ai pu, grâce à des exercices proposés, approfondir mes connaissances.
         </P>
         <P>Cela m'a également montré les différences entre Javascript et React que je connaissais déjà.</P>
-        <P>J'ai énormément apprécié cette formation encore une fois car elle a été à la hauteur de la formation qu'on a à l'EPHEC et cela m'a permis de facilement et rapidement concrétiser une application web Single Page.</P>
+        <P>Encore une fois, j'ai énormément apprécié cette formation car elle a été à la hauteur de la formation que nous avons à l'EPHEC et cela m'a permis de facilement et rapidement concrétiser une application web Single Page.</P>
 
 
         <Heading as="h4" fontSize={20} my={10}>

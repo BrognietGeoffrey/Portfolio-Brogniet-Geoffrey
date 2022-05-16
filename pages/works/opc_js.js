@@ -25,7 +25,7 @@ import preuve3 from '../../public/images/works/openclassrooms/js/preuvejs3.png'
 
         <P>Cette formation est venue en parallèle du cours de développement programmation de première année, lorsque nous apprenions les bases du JavaScript.</P>
 
-<P>J'ai donc réalisé cette formation durant 15 h et cela m'a permis d'apprendre beaucoup de choses en plus que les cours donnés ou alors d'approfondir ce qu'on nous apprenait.</P>
+<P>J'ai donc réalisé cette formation durant 15 h et cela m'a permis d'apprendre plus d'aspects et de compétences que les cours ne peuvent pas donner. Cela m'a permis d'approfondir mes connaissances dans ce langage. </P>
 
 <P>Bien sûr, avec une formation de 15 h, on ne peut pas tout apprendre sur le JavaScript, mais c'est déjà un bon début en plus des cours donnés.</P>
 
